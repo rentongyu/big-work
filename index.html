@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Index</title>
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <div class="header fl-b">
+      <div class="left-header fl-b">
+        <div class="logo-wapper"></div>
+        <div class="item-header">首页</div>
+        <div class="item-header">榜单</div>
+        <div class="item-header">歌手</div>
+        <div class="item-header">下载酷我客户端</div>
+      </div>
+      <div class="right-header fl">
+        <div class="item-r fl-c">
+          <div class="icon-r"></div>
+          <div>美女秀</div>
+        </div>
+        <div class="item-r fl-c">
+          <div class="icon-r"></div>
+          <div>酷我耳机</div>
+        </div>
+        <div class="item-r fl-c">
+          <div class="icon-r"></div>
+          <div>VIP会员</div>
+        </div>
+        <div class="item-r fl-c">
+          <div class="icon-r"></div>
+          <div>i听</div>
+        </div>
+        <div class="item-r fl-c">
+          <div>更多服务</div>
+        </div>
+        <div class="item-r fl-c">
+          <div>登陆</div>
+        </div>
+        <div class="item-r fl-c">
+          <div class="icon-r-t"></div>
+        </div>
+        <div class="search fl-c">
+          <input type="text" name="" id="" placeholder="找到好音乐" />
+          <div class="s-icon"></div>
+        </div>
+      </div>
+    </div>
+    <div class="container fl-b">
+      <div class="sing-text">
+        <div class="sing-des">
+          <p style="font-size: 25px; margin: 30px">喜羊羊</p>
+          <p style="font-size: 13px; color: 333">
+            专辑：<span style="color: rgb(53, 231, 17); padding-right: 20px"
+              >儿童大全</span
+            >
+            歌手：<span style="color: rgb(53, 231, 17); padding-right: 20px"
+              >华语群星</span
+            >
+            歌手：<span style="color: rgb(53, 231, 17); padding-right: 20px"
+              >华语群星</span
+            >
+            分享<span style="color: rgb(53, 231, 17); padding: 0 20px"
+              >评论</span
+            >
+          </p>
+          <p style="font-size: 13px; margin: 10px 0">
+            上传时间：2015.10.02 歌曲来源：民大相思湖网球社
+          </p>
+        </div>
+        <div class="lyrics">
+          <p>喜羊羊 - 别看我只是一只羊</p>
+          <p>词：古倩敏</p>
+          <p>曲：古倩敏</p>
+          <p>喜羊羊美羊羊懒羊羊沸羊羊</p>
+          <p>慢羊羊软绵绵红太狼灰太狼</p>
+          <p>别看我只是一只羊</p>
+          <p>绿草因为我变的更香</p>
+          <p>天空因为我变的更蓝</p>
+          <p>白云因为我变的柔软</p>
+          <p>别看我只是一只羊</p>
+          <p>羊儿的聪明难以想像</p>
+          <p style="color: rgb(53, 231, 17)">天再高心情一样奔放</p>
+          <p>每天都追赶太阳</p>
+          <p>有什么难题去牵绊我都不会去心伤</p>
+          <p>有什么危险在我面前也不会去慌乱</p>
+          <p>就算有狼群把我追捕也当做游戏一场</p>
+          <p>在什么时间都爱开心笑容都会飞翔</p>
+          <p>就算会摔倒站得起来永远不会沮丧</p>
+          <p>在所有天气拥有叫人大笑的力量</p>
+          <p>虽然我只是羊</p>
+          <p>喜羊羊美羊羊</p>
+        </div>
+      </div>
+      <div class="sing-control">
+        <div class="img"></div>
+        <div class="control fl-c">
+          <div class="fl">
+            <div class="play-btn">
+              <img id="playIcon" src="./images/play.png" alt="" />
+            </div>
+            <div class="loadign-wap">
+              <div class="loading"></div>
+            </div>
+            <div class="time">00.00</div>
+            <div class="sound">
+              <img id="soundStatus" src="./images/jyn.png" width="20" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="download fl-c">
+          <div class="icon" style="margin-right: 10px;">
+            <img src="./images/download.png" width="15px" alt="" />
+          </div>
+          <div>免费下载这首歌</div>
+        </div>
+      </div>
+    </div>
+    <div class="pinglun">
+      <div class="tit fl">
+        <p>评论</p>
+        <p><span id="pinglunNum">0</span>条评论</p>
+      </div>
+      <div class="inp-wap fl-b">
+        <div class="usser-img"></div>
+        <div class="input">
+          <textarea
+            name=""
+            id="plCotent"
+            placeholder="分享你的音乐见解"
+          ></textarea>
+          <div class="fl-b">
+            <div class="expression"></div>
+            <div class="fl">
+              <p>已输入<span id="plNum">0</span>个字</p>
+              <div class="pl-btn">评论</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tit fl" style="margin-top: 50px">
+        <p>精彩评论</p>
+        <p></p>
+      </div>
+      <div id="plList"></div>
+      <div class="fl-c">
+        <div class="pl-page fl">
+          <div class="page-up fl-c" onclick="uperPage()">
+            <img src="./images/left.png" alt="" />
+          </div>
+          <div id="pageNumWap" class="fl"></div>
+          <div class="page-down fl-c" onclick="nextPage()">
+            <img src="./images/left.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <audio id="audio" src="./sing.mp3"></audio>
+  </body>
+  <script src="./js/index.js"></script>
+</html>
